@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+} 
+@keyframes change{
+    0%{
+left: 0;
+    }
+    100%{
+left: 1160px;
+    }
+}
+ .div2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-delay: 2s;
+    top: 100px;
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    left: 1160px;
+} 
+@keyframes change2{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+
+.div3{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-delay: 4s;
+    top: 200px;
+    animation-name: change3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+} 
+@keyframes change3{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1160px;
+    }
+} 
+
+.div4{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-delay: 6s;
+    top: 300px;
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    left: 1160px;
+} 
+@keyframes change4{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+
+.div5{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-delay: 8s;
+    top: 400px;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+} 
+@keyframes change5{
+    0%{
+        left: 0px;
+    }
+    100%{
+left:1160px;
+    }
+} 
+
+.div6{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation-delay: 10s;
+    top: 500px;
+    animation-name: change6;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    left: 1160px;
+} 
+@keyframes change6{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+ 
+  
